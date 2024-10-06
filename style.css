@@ -1,0 +1,76 @@
+body{
+    
+    background-image: url("img/diego\ fondo.jpg");
+    background-position: unset;
+    background-size: 50%;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+.fstatic{
+    
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.gif {
+    width: 55%;
+    height: auto;
+}
+
+.tabla{
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.left{
+    padding: 0px;
+    
+}
+
+.right{
+    padding: 0px;
+}
+
+.font {
+    font-family: 'Comic Sans MS', cursive;
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.column{
+    flex: 1;
+    padding: 20px;
+    border: 1px;
+    margin: 10px;
+}
+
+.columnt{
+    flex: 1;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
