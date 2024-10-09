@@ -55,8 +55,17 @@ header, footer {
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'sansundertale';
+    src: url('ComicSansMS.woff2') format('woff2'),
+         url('ComicSansMS.woff') format('woff'),
+         url('Comic\ Sans\ MS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .font {
-    font-family: 'Comic Sans MS';
+    font-family: 'sansundertale';
     color: rgb(123, 213, 255);
 }
 
